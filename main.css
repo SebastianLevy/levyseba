@@ -1,9 +1,11 @@
 body {
 	background:#dbf9fe;
 	font-family: Avenir;
+	height: 100%;
 }
 
 h1 {
+	font-weight: 200;
 	background: #99dae4;
 	color: #173028;
 	padding: 5px 10px 5px 10px;
@@ -13,6 +15,7 @@ h1 {
 }
 h4 {
 	color: #305d4f;
+	font-weight: 200;
 }
 p {
 	color: #305d4f;
@@ -23,6 +26,7 @@ nav ul{
 }
 
 ul{
+	color:#305d4f;
 
 }
 
@@ -52,14 +56,37 @@ div.row{
 	width: 16%;
 	border-radius: 5px;
 }
+
 .return{
 	float:right;
-	background:#72ccda;
-	margin: 1%;
-	padding: 1%;
+	font-weight: 100;
+	background:#144952;
+	color:#ebf8fa;
+	margin: 0;
+	padding: 0% 1%;
 	border-radius: 5px;
-
 }
+
+.first {
+	margin: 8% 5% 1% 2%;
+}
+.middle {
+	margin: 1% 5% 1% 2%;
+}
+.last {
+	margin: 1% 5% 4% 2%;
+}
+
 footer{
+	font-weight: 200;
+	background: #99dae4;
+	color: #173028;
+	padding: 5px 10px 5px 10px;
+	margin: 15px 0px 0px 0px;
+	border-radius: 5px;
 	clear: both;
+	position:fixed;
+	bottom:0;
+	padding:0.5% 51.5% 0.5% 0.5%;
+	margin:0.5% 0%;
 }
