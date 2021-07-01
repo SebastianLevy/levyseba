@@ -258,6 +258,7 @@ footer{
 }
 
 .acaurl {
+	z-index: 900;
 	width: 94%;
 	display: inline-block;
 	color:  #001d45;
