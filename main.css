@@ -33,14 +33,6 @@ body {
 }
 
 h1 {
-	/*
-	position:  relative;
-	margin: 0px 5px 0px 5px;
-	top: 20px;
-	font-weight: 200;
-	color: #173028;
-	border-radius: 10px;
-*/
 	color: #001d45;
 	background: #99dae4;
 	border-radius: 5px;
@@ -150,6 +142,7 @@ div.row{
 }
 
 footer{
+	z-index:10;
 	font-weight: 200;
 	background: #99dae4;
 	color: #001d45;
